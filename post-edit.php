@@ -1,0 +1,1 @@
+<?php edit_post_link( __( 'Edit content', 'themeton' ), '<p><span class="edit-link">', '</span></p>' ); ?>

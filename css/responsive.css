@@ -1,0 +1,92 @@
+/*
+Theme Name:Responsive
+Theme URI:http://www.themeton.com
+Description:A Premium Responsive Theme for Corporate and Creative
+Author:ThemeTon
+Author URI:http://www.themeton.com
+License:GNU General Public License version 3.0
+License URI:http://www.gnu.org/licenses/gpl-3.0.html
+Version:1.0
+*/
+.small article{width:168px}
+.small article.article-featured{width:356px}
+.medium article{width:215px}
+.medium article.article-featured{width:450px}
+.large article{width:293px}
+.large article.article-featured{width:606px}
+.x-large article{width:450px}
+.x-large article.article-featured{width:920px}
+@media (min-width:1200px){
+ .small article{width:175px}
+ .small article.article-featured{width:370px}
+ .medium article{width:214px}
+ .medium article.article-featured{width:448px}
+ .large article{width:272px}
+ .large article.article-featured{width:564px}
+ .x-large article{width:370px}
+ .x-large article.article-featured{width:760px}
+ .sub-footer .container .copyright{margin-left:10px;}
+ .sub-footer .container .footer-bottom-menu{margin-right:0;}
+ .sub-footer .container .row{margin-left:-30px;}
+ .span3>.widgets-container aside{width:218px;}
+}
+@media (max-width:979px){
+ #logo img.logo-img{max-width:767px}
+ .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner{padding:5px 0 0 0 !important}
+ .header-sidebar-container .user-bar{height:auto}
+ .comment-block .comment-block{padding-left:0}
+ #menu{display:none}
+ #main-menu-mobile{width:100%;margin:0;display:block;text-align:center;min-width:275px}
+ .nav-toolbar-container input[type="search"]{margin-top:5px}
+}
+@media (min-width:768px) and (max-width:979px){
+ .small article{width:161px}
+ .small article.article-featured{width:342px}
+ .medium article{width:221px}
+ .medium article.article-featured{width:462px}
+ .large article{width:342px}
+ .large article.article-featured{width:704px}
+ .x-large article{width:704px}
+ .x-large article.article-featured{width:704px}
+ #header .btn-logo-container .span10{width:550px !important}
+ #header .navbar .container{width:724px;}
+ #frontend_post_form #post_image_url{width:146px;}
+ .span3>.widgets-container aside{width:114px;}
+}
+@media (max-width:767px){
+ #logo img.logo-img{max-width:640}
+ body{padding-right:10px;padding-left:10px}
+ .navbar-fixed-top{margin-right:-10px;margin-left:-10px}
+ .navbar-fixed-top{margin-bottom:0}
+ #page .container{margin:0 auto}
+ .navbar .brand{width:100%}
+ .content-container .span9{margin-bottom:20px}
+ .small article, .small article.article-featured,
+ .medium article, .medium article.article-featured,
+ .large article, .large article.article-featured,
+ .x-large article, .x-large article.article-featured{margin-left:0;margin-right:0;width:100%}
+ #header .navbar .container{width:100%}
+ #header .btn-logo-container, #header .nav-toolbar-container{padding-right:20px;padding-left:20px}
+ #header .nav-toolbar-container{width:auto;text-align:center;margin:0}
+ .navbar .nav{margin:0 !important;width:100% !important}
+ .header-page{margin-left:0; margin-right:0; }
+ #footer, nav.manual-infinite-scroll{margin-left:-10px;margin-right:-10px}
+ #footer .footer-sidebar-container{margin-left:10px;margin-right:10px}
+ .to-top{margin-right:10px}
+ .remaining{margin-left:10px}
+ .copyright{margin-left:20px}
+ .footer-bottom-menu{display:none}
+ .nav-toolbar-container .search-content{display:none}
+ input[type="search"]{display:none}
+ .span3>.widgets-container aside{width:97%;}
+}
+@media (max-width:640px){.navbar-fixed-top{position:static !important}#logo img.logo-img{max-width:480px}}
+@media (max-width:480px){
+#logo img.logo-img{max-width:300px}
+.user-offline,.user-online{margin-top:0}
+#header .navbar .brand{padding-bottom:0}
+ #frontend_post_form #post_image_url{width:70px;}
+ .span3>.widgets-container aside{width:95%;}
+ .wrapper{padding:0 !important}
+ .navbar-fixed-top{position:static !important}
+}

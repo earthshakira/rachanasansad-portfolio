@@ -1,0 +1,14 @@
+/*---------------------- Body --------------------------*/body {font-size:12px;line-height:18px;background:#F4F4F4 url(http://localhost/wordpressnew/wp-content/themes/PressGrid/images/bg/bg1.png) repeat 0 0;}
+a {color:#0088cc}
+a:hover {color:#0088cc}
+.manual-infinite-scroll, ul#filters li a, .footer-bottom-menu ul li a {font-family:Oswald}
+#menu > li > a {font-size:14px;line-height:60px;font-family:Oswald}
+#menu ul.children li a {font-size:12px;line-height:18px}
+ul#filters li a,.category-list .container h3{font-size:10px;line-height:18px}
+h2.item-title a {font-size:25px;line-height:19px;font-family:Oswald}
+#item-single-title-1 h2.item-title a {font-size:25px;line-height:19px;font-family:Oswald}
+.widget .widget-title {font-size:12px;line-height:18px;font-family:Oswald}
+.sub-footer .copyright {font-size:9px;line-height:15px}
+#header .header-inner {background-color:#2B2D2F;border-bottom-color:#c1c3c5}
+#footer {background-color:#2B2D2F}
+/*---------------------- Custom --------------------------*/
